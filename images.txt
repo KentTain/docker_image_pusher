@@ -1,6 +1,14 @@
 nginx
-operator:v1.28.4
-flannel:v0.26.7
+
+registry.k8s.io/ingress-nginx/controller:v1.5.1
+registry.k8s.io/ingress-nginx/kube-webhook-certgen:v20220916-gd32f8c343
+
+quay.io/tigera/operator:v1.28.4
+
+ghcr.io/flannel-io/flannel-cni-plugin:v1.6.2-flannel1
+ghcr.io/flannel-io/flannel:v0.26.7
+ghcr.io/flannel-io/flannel:v0.26.7
+
 #支持私库
 #k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
 #xhofe/alist:latest
