@@ -21,6 +21,10 @@ quay.io/tigera/operator:v1.28.4
 ghcr.io/flannel-io/flannel-cni-plugin:v1.6.2-flannel1
 ghcr.io/flannel-io/flannel:v0.26.7
 
+ghcr.io/devcontainers/features/node:lts
+ghcr.io/devcontainers-contrib/features/npm-package:latest
+ghcr.io/devcontainers/features/docker-in-docker:latest
+
 #服务网关：ingress-nginx
 registry.k8s.io/ingress-nginx/controller:v1.5.1
 registry.k8s.io/ingress-nginx/kube-webhook-certgen:v20220916-gd32f8c343
