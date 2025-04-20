@@ -1,4 +1,5 @@
 docker.io/library/nginx:1.21.4 
+docker/dockerfile:1.4
 
 #kubernetes套件
 registry.aliyuncs.com/google_containers/coredns:v1.8.6
