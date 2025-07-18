@@ -22,10 +22,9 @@ quay.io/tigera/operator:v1.28.4
 ghcr.io/flannel-io/flannel-cni-plugin:v1.6.2-flannel1
 ghcr.io/flannel-io/flannel:v0.26.7
 
-ghcr.io/devcontainers/features/node:1.0.3
-ghcr.io/devcontainers/features/docker-in-docker:2.12.2
-ghcr.io/devcontainers-contrib/features/npm-package:latest
-
+#ghcr.io/devcontainers/features/node:1.0.3
+#ghcr.io/devcontainers/features/docker-in-docker:2.12.2
+#ghcr.io/devcontainers-contrib/features/npm-package:latest
 
 #服务网关：ingress-nginx
 registry.k8s.io/ingress-nginx/controller:v1.5.1
