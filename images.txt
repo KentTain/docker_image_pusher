@@ -45,6 +45,7 @@ mcr.microsoft.com/mssql/server:2019-latest
 pgvector/pgvector:pg17
 redis:7-alpine
 minio/minio:latest
+langgenius/dify-sandbox:0.2.12
 
 #kubernetes套件
 registry.aliyuncs.com/google_containers/coredns:v1.8.6
