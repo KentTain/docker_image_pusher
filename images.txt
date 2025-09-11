@@ -4,6 +4,7 @@ docker/dockerfile:1.4
 alpine:3.15
 alpine:3.20
 alpine:3.22
+ubuntu:22.04
 
 #java环境
 openjdk:8-jdk
