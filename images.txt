@@ -36,6 +36,11 @@ python:3.11-slim-bullseye
 python:3.12-alpine
 python:3.12-slim-bullseye
 
+#GPU显卡
+paddlepaddle/paddle:3.2.0-gpu-cuda11.8-cudnn8.9
+paddlepaddle/paddle:3.2.0-gpu-cuda12.6-cudnn9.5
+paddlepaddle/paddle:3.2.0-gpu-cuda12.9-cudnn9.9
+
 #常用软件
 docker.io/library/nginx:1.21.4 
 sonatype/nexus3:latest
