@@ -1,8 +1,8 @@
 docker/dockerfile:1.4
 docker/dockerfile:1.7
 
-docker pull alpine/openclaw:2026.3.13-1
-docker pull alpine/openclaw:2026.3.13-1-slim
+alpine/openclaw:2026.3.13-1
+alpine/openclaw:2026.3.13-1-slim
 
 #GPU显卡
 #nvidia/cuda:11.8-base-ubuntu20.04
