@@ -4,6 +4,8 @@ docker/dockerfile:1.7
 alpine/openclaw:2026.3.13-1
 alpine/openclaw:2026.3.13-1-slim
 
+docker.io/library/node:22-slim
+
 #GPU显卡
 #nvidia/cuda:11.8-base-ubuntu20.04
 #paddlepaddle/paddle:3.2.0-gpu-cuda11.8-cudnn8.9
