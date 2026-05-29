@@ -30,6 +30,7 @@ docker.io/library/node:alpine
 #alpine:3.22
 #ubuntu:22.04
 #debian:bullseye-slim
+debian:bookworm-slim
 
 #java环境
 #openjdk:8-jdk
@@ -59,12 +60,13 @@ docker.io/library/node:alpine
 #python:3.11-slim-bullseye
 #python:3.12-alpine
 #python:3.12-slim-bullseye
+python:3.12-slim-bookworm
 
 #ghcr.io/astral-sh/uv:python3.12-alpine
 #ghcr.io/astral-sh/uv:python3.12-bookworm-slim
 
 #常用软件
-docker.io/library/nginx:alpine
+#docker.io/library/nginx:alpine
 #docker.io/library/nginx:1.21.4 
 #sonatype/nexus3:latest
 #gitlab/gitlab-ce:15.5.2-ce.0
