@@ -11,8 +11,7 @@
 #docker.io/library/node:22-bookworm-slim
 #docker.io/library/node:24-bookworm
 #docker.io/library/node:24-bookworm-slim
-
-
+docker.io/library/node:20-bookworm-slim
 
 #GPU显卡
 #nvidia/cuda:11.8-base-ubuntu20.04
@@ -25,7 +24,7 @@
 
 #netbirdio/netbird:latest
 #ghcr.io/ding113/claude-code-hub:latest
-ghcr.io/ding113/claude-code-hub:v0.8.4
+#ghcr.io/ding113/claude-code-hub:v0.8.4
 
 #操作系统
 #alpine:3.15
@@ -47,6 +46,8 @@ ghcr.io/ding113/claude-code-hub:v0.8.4
 #openjdk:17-jdk-slim
 #openjdk:17-jdk-slim-bullseye
 #openjdk:17-jdk-alpine
+openjdk:21-jdk-slim
+openjdk:21-jdk-slim-bookworm
 
 #微软dotcore
 #mcr.microsoft.com/dotnet/aspnet:5.0-alpine
@@ -63,7 +64,8 @@ ghcr.io/ding113/claude-code-hub:v0.8.4
 #python:3.11-slim-bullseye
 #python:3.12-alpine
 #python:3.12-slim-bullseye
-python:3.12-slim-bookworm
+python:3.11-slim-bookworm
+#python:3.12-slim-bookworm
 
 #ghcr.io/astral-sh/uv:python3.12-alpine
 #ghcr.io/astral-sh/uv:python3.12-bookworm-slim
