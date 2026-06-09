@@ -46,8 +46,8 @@
 #openjdk:17-jdk-slim
 #openjdk:17-jdk-slim-bullseye
 #openjdk:17-jdk-alpine
-openjdk:21-jdk-slim-bookworm
-openjdk:21-jdk-alpine
+docker.io/library/openjdk:21-slim
+docker.io/openjdk:21-slim-bookworm
 
 #微软dotcore
 #mcr.microsoft.com/dotnet/aspnet:5.0-alpine
