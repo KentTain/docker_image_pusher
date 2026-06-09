@@ -47,6 +47,9 @@
 #openjdk:17-jdk-slim-bullseye
 #openjdk:17-jdk-alpine
 
+swr.cn-north-4.myhuaweicloud.com/ddn-k8s/docker.io/openjdk:21-jdk-slim
+swr.cn-north-4.myhuaweicloud.com/ddn-k8s/docker.io/openjdk:21-slim-bookworm
+
 #微软dotcore
 #mcr.microsoft.com/dotnet/aspnet:5.0-alpine
 #mcr.microsoft.com/dotnet/aspnet:5.0-bullseye-slim
