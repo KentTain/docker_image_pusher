@@ -14,40 +14,46 @@ docker.io/library/node:alpine
 #docker.io/library/node:22-slim
 docker.io/library/node:24-slim
 docker.io/library/node:22-bookworm
-docker.io/library/node:22-bookworm-slim
+#docker.io/library/node:22-bookworm-slim
 docker.io/library/node:24-bookworm
 docker.io/library/node:24-bookworm-slim
-docker.io/library/node:20-bookworm-slim
+#docker.io/library/node:20-bookworm-slim
 
 #python环境
-python:3.10-alpine
-python:3.10-slim-bullseye
-python:3.11-alpine
-python:3.11-slim-bullseye
-python:3.11-slim-bookworm
-python:3.12-alpine
-python:3.12-slim-bullseye
-python:3.12-slim-bookworm
+#python:3.10-alpine
+#python:3.10-slim-bullseye
+#python:3.11-alpine
+#python:3.11-slim-bullseye
+#python:3.11-slim-bookworm
+#python:3.12-alpine
+#python:3.12-slim-bullseye
+#python:3.12-slim-bookworm
 
-ghcr.io/astral-sh/uv:python3.12-alpine
-ghcr.io/astral-sh/uv:python3.12-bookworm-slim
+#ghcr.io/astral-sh/uv:python3.12-alpine
+#ghcr.io/astral-sh/uv:python3.12-bookworm-slim
 
 #java环境
 #openjdk:8-jdk
 #openjdk:8-jdk-slim
 #openjdk:8-jdk-slim-bullseye
 #openjdk:8-jdk-alpine
-openjdk:11-jdk
-openjdk:11-jdk-slim
-openjdk:11-jdk-slim-bullseye
-openjdk:17-jdk
-openjdk:17-jdk-slim
-openjdk:17-jdk-slim-bullseye
-openjdk:17-jdk-alpine
+#openjdk:11-jdk
+#openjdk:11-jdk-slim
+#openjdk:11-jdk-slim-bullseye
+#openjdk:17-jdk
+#openjdk:17-jdk-slim
+#openjdk:17-jdk-slim-bullseye
+#openjdk:17-jdk-alpine
 
 eclipse-temurin:8-jdk
 eclipse-temurin:8-jdk-alpine
+eclipse-temurin:11-jdk
+eclipse-temurin:17-jdk-alpine
+eclipse-temurin:21-jdk
 
+swr.cn-north-4.myhuaweicloud.com/ddn-k8s/docker.io/openjdk:11-jdk-slim
+swr.cn-north-4.myhuaweicloud.com/ddn-k8s/docker.io/openjdk:17-jdk
+swr.cn-north-4.myhuaweicloud.com/ddn-k8s/docker.io/openjdk:17-jdk-alpine
 swr.cn-north-4.myhuaweicloud.com/ddn-k8s/docker.io/openjdk:21-jdk-slim
 swr.cn-north-4.myhuaweicloud.com/ddn-k8s/docker.io/openjdk:21-slim-bookworm
 
