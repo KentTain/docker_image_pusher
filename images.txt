@@ -9,15 +9,23 @@
 #debian:bullseye-slim
 #debian:bookworm-slim
 
-#nodejs环境
-docker.io/library/node:alpine
+#nodejs环境，备注：docker.io 变成 library_node:xxx
+#docker.io/library/node:alpine
 #docker.io/library/node:22-slim
-docker.io/library/node:24-slim
-docker.io/library/node:22-bookworm
+#docker.io/library/node:24-slim
+#docker.io/library/node:22-bookworm
 #docker.io/library/node:22-bookworm-slim
-docker.io/library/node:24-bookworm
-docker.io/library/node:24-bookworm-slim
+#docker.io/library/node:24-bookworm
+#docker.io/library/node:24-bookworm-slim
 #docker.io/library/node:20-bookworm-slim
+
+swr.cn-north-4.myhuaweicloud.com/ddn-k8s/docker.io/node:alpine
+swr.cn-north-4.myhuaweicloud.com/ddn-k8s/docker.io/node:22-slim
+swr.cn-north-4.myhuaweicloud.com/ddn-k8s/docker.io/node:22-bookworm
+swr.cn-north-4.myhuaweicloud.com/ddn-k8s/docker.io/node:22-bookworm-slim
+swr.cn-north-4.myhuaweicloud.com/ddn-k8s/docker.io/node:24-slim
+swr.cn-north-4.myhuaweicloud.com/ddn-k8s/docker.io/node:24-bookworm
+swr.cn-north-4.myhuaweicloud.com/ddn-k8s/docker.io/node:24-bookworm-slim
 
 #python环境
 #python:3.10-alpine
@@ -32,7 +40,7 @@ docker.io/library/node:24-bookworm-slim
 #ghcr.io/astral-sh/uv:python3.12-alpine
 #ghcr.io/astral-sh/uv:python3.12-bookworm-slim
 
-#java环境
+#java环境，备注：openjdk整个镜像库已经删除
 #openjdk:8-jdk
 #openjdk:8-jdk-slim
 #openjdk:8-jdk-slim-bullseye
@@ -45,42 +53,44 @@ docker.io/library/node:24-bookworm-slim
 #openjdk:17-jdk-slim-bullseye
 #openjdk:17-jdk-alpine
 
-eclipse-temurin:8-jdk
-eclipse-temurin:8-jdk-alpine
-eclipse-temurin:11-jdk
-eclipse-temurin:17-jdk-alpine
-eclipse-temurin:21-jdk
+#eclipse-temurin:8-jdk
+#eclipse-temurin:8-jdk-alpine
+#eclipse-temurin:11-jdk
+#eclipse-temurin:17-jdk-alpine
+#eclipse-temurin:21-jdk
 
-swr.cn-north-4.myhuaweicloud.com/ddn-k8s/docker.io/openjdk:11-jdk-slim
-swr.cn-north-4.myhuaweicloud.com/ddn-k8s/docker.io/openjdk:17-jdk
-swr.cn-north-4.myhuaweicloud.com/ddn-k8s/docker.io/openjdk:17-jdk-alpine
-swr.cn-north-4.myhuaweicloud.com/ddn-k8s/docker.io/openjdk:21-jdk-slim
-swr.cn-north-4.myhuaweicloud.com/ddn-k8s/docker.io/openjdk:21-slim-bookworm
+swr.cn-north-4.myhuaweicloud.com/ddn-k8s/docker.io/openjdk:8-jdk
+swr.cn-north-4.myhuaweicloud.com/ddn-k8s/docker.io/openjdk:8-jdk-slim
+#swr.cn-north-4.myhuaweicloud.com/ddn-k8s/docker.io/openjdk:11-jdk-slim
+#swr.cn-north-4.myhuaweicloud.com/ddn-k8s/docker.io/openjdk:17-jdk
+#swr.cn-north-4.myhuaweicloud.com/ddn-k8s/docker.io/openjdk:17-jdk-alpine
+#swr.cn-north-4.myhuaweicloud.com/ddn-k8s/docker.io/openjdk:21-jdk-slim
+#swr.cn-north-4.myhuaweicloud.com/ddn-k8s/docker.io/openjdk:21-slim-bookworm
 
 #微软dotcore
-mcr.microsoft.com/dotnet/aspnet:5.0-alpine
-mcr.microsoft.com/dotnet/aspnet:5.0-bullseye-slim
-mcr.microsoft.com/dotnet/aspnet:6.0-alpine
-mcr.microsoft.com/dotnet/aspnet:6.0-bullseye-slim
-mcr.microsoft.com/dotnet/aspnet:8.0-alpine
-mcr.microsoft.com/dotnet/aspnet:8.0-bookworm-slim
+#mcr.microsoft.com/dotnet/aspnet:5.0-alpine
+#mcr.microsoft.com/dotnet/aspnet:5.0-bullseye-slim
+#mcr.microsoft.com/dotnet/aspnet:6.0-alpine
+#mcr.microsoft.com/dotnet/aspnet:6.0-bullseye-slim
+#mcr.microsoft.com/dotnet/aspnet:8.0-alpine
+#mcr.microsoft.com/dotnet/aspnet:8.0-bookworm-slim
 
 #常用软件
 #docker.io/library/nginx:alpine
-docker.io/library/nginx:1.21.4 
+#docker.io/library/nginx:1.21.4 
 
 #mysql:8.0.26
 #pgvector/pgvector:pg17
 #redis:7-alpine
 #minio/minio:latest
-mcr.microsoft.com/mssql/server:2019-latest
+#mcr.microsoft.com/mssql/server:2019-latest
 
-sonatype/nexus3:latest
-gitlab/gitlab-ce:15.5.2-ce.0
-gitlab/gitlab-runner:alpine
-rancher/rancher:v2.7.3
-langgenius/dify-sandbox:0.2.12
-moby/buildkit:buildx-stable-1
+#sonatype/nexus3:latest
+#gitlab/gitlab-ce:15.5.2-ce.0
+#gitlab/gitlab-runner:alpine
+#rancher/rancher:v2.7.3
+#langgenius/dify-sandbox:0.2.12
+#moby/buildkit:buildx-stable-1
 
 #netbirdio/netbird:latest
 #ghcr.io/ding113/claude-code-hub:latest
