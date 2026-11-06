@@ -19,7 +19,6 @@
 #docker.io/library/node:24-bookworm-slim
 #docker.io/library/node:20-bookworm-slim
 
-#swr.cn-north-4.myhuaweicloud.com/ddn-k8s/docker.io/node:alpine
 swr.cn-north-4.myhuaweicloud.com/ddn-k8s/docker.io/node:22-slim
 swr.cn-north-4.myhuaweicloud.com/ddn-k8s/docker.io/node:22-bookworm
 swr.cn-north-4.myhuaweicloud.com/ddn-k8s/docker.io/node:22-bookworm-slim
@@ -41,26 +40,14 @@ swr.cn-north-4.myhuaweicloud.com/ddn-k8s/docker.io/node:24-bookworm-slim
 #ghcr.io/astral-sh/uv:python3.12-bookworm-slim
 
 #java环境，备注：openjdk整个镜像库已经删除
-#openjdk:8-jdk
-#openjdk:8-jdk-slim
-#openjdk:8-jdk-slim-bullseye
-#openjdk:8-jdk-alpine
-#openjdk:11-jdk
-#openjdk:11-jdk-slim
-#openjdk:11-jdk-slim-bullseye
-#openjdk:17-jdk
-#openjdk:17-jdk-slim
-#openjdk:17-jdk-slim-bullseye
-#openjdk:17-jdk-alpine
-
 #eclipse-temurin:8-jdk
 #eclipse-temurin:8-jdk-alpine
 #eclipse-temurin:11-jdk
 #eclipse-temurin:17-jdk-alpine
 #eclipse-temurin:21-jdk
 
-swr.cn-north-4.myhuaweicloud.com/ddn-k8s/docker.io/openjdk:8-jdk
-swr.cn-north-4.myhuaweicloud.com/ddn-k8s/docker.io/openjdk:8-jdk-slim
+#swr.cn-north-4.myhuaweicloud.com/ddn-k8s/docker.io/openjdk:8-jdk
+#swr.cn-north-4.myhuaweicloud.com/ddn-k8s/docker.io/openjdk:8-jdk-slim
 #swr.cn-north-4.myhuaweicloud.com/ddn-k8s/docker.io/openjdk:11-jdk-slim
 #swr.cn-north-4.myhuaweicloud.com/ddn-k8s/docker.io/openjdk:17-jdk
 #swr.cn-north-4.myhuaweicloud.com/ddn-k8s/docker.io/openjdk:17-jdk-alpine
@@ -107,29 +94,29 @@ swr.cn-north-4.myhuaweicloud.com/ddn-k8s/docker.io/openjdk:8-jdk-slim
 #vllm/vllm-openai:v0.10.2
 
 #kubernetes套件
-registry.aliyuncs.com/google_containers/coredns:v1.8.6
-registry.aliyuncs.com/google_containers/etcd:3.5.3-0
-k8s.gcr.io/pause:3.7 
-k8s.gcr.io/kube-apiserver:v1.24.7 
-k8s.gcr.io/kube-controller-manager:v1.24.7 
-k8s.gcr.io/kube-scheduler:v1.24.7 
-k8s.gcr.io/kube-proxy:v1.24.7
+#registry.aliyuncs.com/google_containers/coredns:v1.8.6
+#registry.aliyuncs.com/google_containers/etcd:3.5.3-0
+#k8s.gcr.io/pause:3.7 
+#k8s.gcr.io/kube-apiserver:v1.24.7 
+#k8s.gcr.io/kube-controller-manager:v1.24.7 
+#k8s.gcr.io/kube-scheduler:v1.24.7 
+#k8s.gcr.io/kube-proxy:v1.24.7
 
 #网络插件：calico
-quay.io/calico/cni:v3.24.4
-quay.io/calico/pod2daemon-flexvol:v3.24.4
-quay.io/calico/node:v3.24.4
-quay.io/calico/kube-controllers:v3.24.4
-quay.io/calico/typha:v3.24.4
-quay.io/tigera/operator:v1.28.4
+#quay.io/calico/cni:v3.24.4
+#quay.io/calico/pod2daemon-flexvol:v3.24.4
+#quay.io/calico/node:v3.24.4
+#quay.io/calico/kube-controllers:v3.24.4
+#quay.io/calico/typha:v3.24.4
+#quay.io/tigera/operator:v1.28.4
 
 #网络插件：flannel
-ghcr.io/flannel-io/flannel-cni-plugin:v1.6.2-flannel1
-ghcr.io/flannel-io/flannel:v0.26.7
+#ghcr.io/flannel-io/flannel-cni-plugin:v1.6.2-flannel1
+#ghcr.io/flannel-io/flannel:v0.26.7
 
-ghcr.io/devcontainers/features/node:1.0.3
-ghcr.io/devcontainers/features/docker-in-docker:2.12.2
-ghcr.io/devcontainers-contrib/features/npm-package:latest
+#ghcr.io/devcontainers/features/node:1.0.3
+#ghcr.io/devcontainers/features/docker-in-docker:2.12.2
+#ghcr.io/devcontainers-contrib/features/npm-package:latest
 
 #服务网关：ingress-nginx
 registry.k8s.io/ingress-nginx/controller:v1.5.1
@@ -137,6 +124,7 @@ registry.k8s.io/ingress-nginx/kube-webhook-certgen:v20220916-gd32f8c343
 
 #支持私库
 k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
+
 #xhofe/alist:latest
 #支持指定架构
 #--platform=linux/arm64 xiaoyaliu/alist
